@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1879ee0-7db8-46e3-b7ae-115eb8b065ad" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1a1gcEciYH2EE4EHRMNKLJ7AKqD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/soimort/you-get/" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.my_word_game">
+    <configuration name="ex32" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hard_way_learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex32.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex33" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hard_way_learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex33.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex34" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hard_way_learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex34.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex35" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hard_way_learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex35.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_word_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hard_way_learn_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_word_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.my_word_game" />
+        <item itemvalue="Python.ex35" />
+        <item itemvalue="Python.ex34" />
+        <item itemvalue="Python.ex33" />
+        <item itemvalue="Python.ex32" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1879ee0-7db8-46e3-b7ae-115eb8b065ad" name="默认更改列表" comment="" />
+      <created>1585908590690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585908590690</updated>
+      <workItem from="1585908600304" duration="571000" />
+      <workItem from="1585909186128" duration="6164000" />
+      <workItem from="1585994961370" duration="25966000" />
+      <workItem from="1586247924861" duration="3525000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="792" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585909027523">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="792" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585909027523" />
+    <state x="1190" y="312" key="FileChooserDialogImpl" timestamp="1586251423747">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1190" y="312" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586251423747" />
+    <state x="1264" y="421" key="Github.ShareDialog" timestamp="1586261057488">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1264" y="421" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586261057488" />
+    <state width="1258" height="352" key="GridCell.Tab.0.bottom" timestamp="1586174444240">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1258" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586174444240" />
+    <state width="1258" height="352" key="GridCell.Tab.0.center" timestamp="1586174444240">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1258" height="352" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586174444240" />
+    <state width="1258" height="352" key="GridCell.Tab.0.left" timestamp="1586174444240">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1258" height="352" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586174444240" />
+    <state width="1258" height="352" key="GridCell.Tab.0.right" timestamp="1586174444240">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1258" height="352" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586174444240" />
+    <state width="914" height="340" key="GridCell.Tab.1.bottom" timestamp="1586059539299">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586059539299" />
+    <state width="914" height="340" key="GridCell.Tab.1.center" timestamp="1586059539299">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="340" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586059539299" />
+    <state width="914" height="340" key="GridCell.Tab.1.left" timestamp="1586059539299">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="340" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586059539299" />
+    <state width="914" height="340" key="GridCell.Tab.1.right" timestamp="1586059539299">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="340" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586059539299" />
+    <state x="538" y="184" key="SettingsEditor" timestamp="1586251525476">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="538" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586251525476" />
+    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1586251521790">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586251521790" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex26.coverage" NAME="ex26 Coverage Results" MODIFIED="1586060857946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex28.coverage" NAME="ex28 Coverage Results" MODIFIED="1586069048327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1585909303051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex31.coverage" NAME="ex31 Coverage Results" MODIFIED="1586074844478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex33.coverage" NAME="ex33 Coverage Results" MODIFIED="1586076858984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex32.coverage" NAME="ex32 Coverage Results" MODIFIED="1586076563525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex35.coverage" NAME="ex35 Coverage Results" MODIFIED="1586162390596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$words.coverage" NAME="words Coverage Results" MODIFIED="1586060811042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex25.coverage" NAME="ex25 Coverage Results" MODIFIED="1585909119185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$my_word_game.coverage" NAME="my_word_game Coverage Results" MODIFIED="1586174444233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex34.coverage" NAME="ex34 Coverage Results" MODIFIED="1586156880736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
