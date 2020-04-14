@@ -14,15 +14,34 @@ class Engine(object):
         self.scene_map = scene_map
 
     def play(self):
+        #新建一个现在的场景
         current_scene = self.scene_map.opening_scene()
+        #结束的场景
         last_scene = self.scene_map.next_scene('finished')
-
+        #如果两个场景不一样，则在游戏中
         while current_scene != last_scene:
             next_scene_name = current_scene.enter()
             current_scene = self.scene_map.next_scene(next_scene_name)
 
             #be sure to print out the last scene
             current_scene.enter()
+
+#加入打斗场景
+class Fight(Scene):
+    def enter(self):
+        print(dedent("""
+            欢迎你，勇士。请选择攻击方式
+            a: 升龙霸 b：回旋踢
+            """))
+        action = input(">")
+
+        if action == "a":
+            print("你会个鸟的升龙霸，给爷死")
+            return 'death'
+            exit(0)
+        else:
+            print("你把自己转的晕头转向")
+            return 'death'
 
 class Death(Scene):
     quips = [
@@ -46,7 +65,6 @@ class CentralCorridor(Scene):
             your entire crew. You are the last surviving member and your last misson
             is to get the neutron destruct bomb from the Weapons Armory, put it in the 
             bridge, and blow the ship up after getting into an escape pod.
-            
             You're running down the central corridor to the Weapons Armory when a Gothon 
             jumps our, red scaly skin, dark grimy teeth, and evil clown costume flowing around
             his hate filled body. He's blocking the door to the Armory and about to pull a weapon to blats you.
@@ -64,7 +82,7 @@ class CentralCorridor(Scene):
                 him fly into an insane rage and blast you repeatedly in the face until you are 
                 dead. Then he eats you.
                 """))
-            return 'death'
+            return 'fight'
 
         elif action == 'dodge!':
             print(dedent(".......Gothon stomps on your head and eats you."))
@@ -187,10 +205,6 @@ class Finished(Scene):
         print("You won ! GOOD JOB!")
         return 'finished'
 
-
-
-
-
 class Map(object):
     scenes = {
         'central_corridor': CentralCorridor (),
@@ -199,6 +213,7 @@ class Map(object):
         'escape_pod': EscapePod(),
         'death': Death(),
         'finished': Finished(),
+        'fight': Fight()
 
     }
 

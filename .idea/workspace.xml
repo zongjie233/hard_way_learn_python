@@ -1,11 +1,783 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1879ee0-7db8-46e3-b7ae-115eb8b065ad" name="默认更改列表" comment="" />
+    <list default="true" id="d1879ee0-7db8-46e3-b7ae-115eb8b065ad" name="默认更改列表" comment="ex38">
+      <change afterPath="$PROJECT_DIR$/taobao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobao2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/.idea/飞机大战.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/02_使用Rect描述飞机.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/03_创建游戏窗口.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/04_绘制图像.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/05_绘制飞机图像.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/06_update方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/07_游戏循环.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/08_更新飞机位置.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/10_事件监听.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/11_监听退出事件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/again.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/bomb_supply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/bullet1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/bullet2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/bullet_supply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy1_down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy1_down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy1_down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy1_down4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy2_down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy2_down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy2_down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy2_down4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy2_hit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_down1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_down2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_down3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_down4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_down5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_down6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_hit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_n1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/enemy3_n2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/gameover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/life.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/me1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/me2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/me_destroy_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/me_destroy_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/me_destroy_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/me_destroy_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/pause_nor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/pause_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/resume_nor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/images/resume_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/plane_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/plane_sprites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/_camera.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/_pygame.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/_surface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/bitmask.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/camera.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/fastevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/font.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/freetype.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/mask.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/mixer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/palette.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/pgarrinter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/pgbufferproxy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/pgcompat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/pgopengl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/pygame.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/scrap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Include/site/python3.8/pygame/surface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip-20.0.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip-20.0.2.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip-20.0.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip-20.0.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip-20.0.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip-20.0.2.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip-20.0.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/build_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/autocompletion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/base_command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/cmdoptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/command_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/main_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/req_command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/cli/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/completion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/freeze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/uninstall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/commands/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/distributions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/distributions/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/distributions/installed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/distributions/sdist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/distributions/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/index/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/index/collector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/index/package_finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/legacy_resolve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/locations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/candidate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/format_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/scheme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/search_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/selection_prefs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/target_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/models/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/network/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/network/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/network/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/network/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/network/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/network/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/network/xmlrpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/build/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/build/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/build/metadata_legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/build/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/build/wheel_legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/freeze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/install/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/install/editable_legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/install/legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/pep425tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/pyproject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/req/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/req/constructors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/req/req_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/req/req_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/req/req_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/req/req_uninstall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/self_outdated_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/appdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/deprecation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/distutils_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/encoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/entrypoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/filetypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/glibc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/hashes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/inject_securetransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/marker_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/packaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/pkg_resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/setuptools_build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/subprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/temp_dir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/unpacking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/virtualenv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/utils/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/vcs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/vcs/bazaar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/vcs/git.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/vcs/mercurial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/vcs/subversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/vcs/versioncontrol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_internal/wheel_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/appdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/filewrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/serialize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/certifi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/certifi/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/certifi/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/big5freq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/big5prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/chardistribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/charsetgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/charsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/cli/chardetect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/codingstatemachine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/cp949prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/escprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/escsm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/eucjpprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/euckrfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/euckrprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/euctwfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/euctwprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/gb2312freq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/gb2312prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/hebrewprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/jisfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/jpcntx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/langbulgarianmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/langcyrillicmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/langgreekmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/langhebrewmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/langhungarianmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/langthaimodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/langturkishmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/latin1prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/mbcharsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/mbcsgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/mbcssm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/sbcharsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/sbcsgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/sjisprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/universaldetector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/utf8prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/chardet/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/colorama/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/colorama/ansi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/colorama/ansitowin32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/colorama/initialise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/colorama/win32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/colorama/winterm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/contextlib2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/_backport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/_backport/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/manifest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/scripts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/t32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/t64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/w32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/w64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distlib/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/distro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/_ihatexml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/_inputstream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/_trie/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/_trie/_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/_trie/datrie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/_trie/py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/filters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/filters/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/filters/lint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/idna/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/idna/codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/idna/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/idna/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/idna/idnadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/idna/intranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/idna/package_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/idna/uts46data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/ipaddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/msgpack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/msgpack/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/msgpack/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/msgpack/fallback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/_typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/_in_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/colorlog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/dirtools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/envbuild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pep517/wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pkg_resources/py31compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/progress/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/progress/bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/progress/counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/progress/spinner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pyparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pytoml/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pytoml/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pytoml/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pytoml/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pytoml/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/pytoml/writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/_internal_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/certs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/requests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/retrying.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/appengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/urllib3/util/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/webencodings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/webencodings/labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/webencodings/mklabels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/webencodings/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame-1.9.6.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame-1.9.6.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame-1.9.6.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame-1.9.6.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame-1.9.6.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/SDL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/SDL_image.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/SDL_mixer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/SDL_ttf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/_camera.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/_camera_opencv_highgui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/_camera_vidcapture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/_dummybackend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/_freetype.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/_numpysndarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/_numpysurfarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/base.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/bufferproxy.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/cdrom.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/color.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/colordict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/constants.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/cursors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/display.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/docs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/docs/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/docs/logos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/docs/pygame_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/docs/pygame_powered.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/docs/pygame_small.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/docs/pygame_tiny.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/docs/ref/docscomments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/draw.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/draw_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/event.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/aacircle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/aliens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/arraydemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/audiocapture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/blend_fill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/blit_blends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/chimp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/cursors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/alien1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/alien1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/alien1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/alien2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/alien2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/alien3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/alien3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/arraydemo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/asprite.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/blue.mpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/bomb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/boom.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/brick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/car_door.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/chimp.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/danger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/explosion1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/fist.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/house_lo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/house_lo.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/house_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/liquid.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/midikeys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/oldplayer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/player1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/punch.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/secosmic_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/shot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/static.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/whiff.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/data/yuv_1.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/dropevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/eventlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/fastevents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/fonty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/freetype_misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/glcube.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/headless_no_windows_needed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/liquid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/JavaCompiling.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/_MainMenu_EOArchive_English.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/classes.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/info.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/keyedobjects.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/English.lproj/aliens.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/aliens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/aliens_app_example/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/macosx/macfont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/midi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/moveit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/oldalien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/overlay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/pixelarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/playmus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/prevent_display_stretching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/scaletest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/scrap_clipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/scroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/sound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/sound_array_demos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/stars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/testsprite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/vgrade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/examples/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/fastevent.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/font.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/freesansbold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/freetype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/ftfont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/gfxdraw.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/image.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/imageext.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/joystick.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/key.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/libmpg123.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/libogg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/libvorbis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/libvorbisfile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/locals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/macosx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/mask.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/math.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/midi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/mikmod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/mixer.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/mixer_music.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/mouse.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/newbuffer.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/overlay.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pixelarray.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pixelcopy.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pkgdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pygame.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pygame_icon.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pygame_icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pygame_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pygame_icon.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/pypm.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/rect.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/rwobject.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/scrap.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/smpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/sndarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/sprite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/surface.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/surfarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/surflock.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/sysfont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/base_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/blit_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/bufferproxy_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/camera_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/cdrom_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/cdrom_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/color_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/compat_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/constants_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/cursors_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/display_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/draw_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/event_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fastevent_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fastevent_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/fonts/A_PyGameMono-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/fonts/PyGameMono-18-100dpi.bdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/fonts/PyGameMono-18-75dpi.bdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/fonts/PyGameMono-8.bdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/fonts/PyGameMono.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/fonts/test_fixed.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/fonts/test_sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/fonts/u13079_PyGameMono-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/xbm_cursors/white_sizing.xbm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/fixtures/xbm_cursors/white_sizing_mask.xbm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/font_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/font_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/freetype_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/freetype_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/ftfont_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/ftfont_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/gfxdraw_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/image__save_gl_surface_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/image_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/image_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/imageext_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/imageext_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/joystick_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/key_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/mask_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/math_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/midi_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/midi_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/mixer_music_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/mixer_music_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/mixer_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/mixer_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/mouse_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/overlay_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/overlay_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/pixelarray_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/pixelcopy_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/rect_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/all_ok/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/all_ok/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/all_ok/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/all_ok/fake_4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/all_ok/fake_5_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/all_ok/fake_6_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/all_ok/no_assertions__ret_code_of_1__test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/all_ok/zero_tests_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/everything/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/everything/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/everything/incomplete_todo_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/everything/magic_tag_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/everything/sleep_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/exclude/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/exclude/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/exclude/invisible_tag_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/exclude/magic_tag_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/failures1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/failures1/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/failures1/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/failures1/fake_4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/incomplete/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/incomplete/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/incomplete/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/incomplete_todo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/incomplete_todo/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/incomplete_todo/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/infinite_loop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/infinite_loop/fake_1_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/infinite_loop/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/print_stderr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/print_stderr/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/print_stderr/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/print_stderr/fake_4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/print_stdout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/print_stdout/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/print_stdout/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/print_stdout/fake_4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/run_tests__test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/timeout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/timeout/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/run_tests__tests/timeout/sleep_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/rwobject_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/scrap_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/scrap_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/sndarray_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/sndarray_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/sprite_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/surface_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/surfarray_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/surfarray_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/surflock_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/sysfont_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_test_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/arrinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/async_sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/buftools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/endian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/png.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/run_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/test_machinery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/test_utils/test_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/threads_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/time_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/touch_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/touch_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/transform_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/tests/version_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/threads/Py25Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/threads/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/time.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/transform.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/pygame/zlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/setuptools-40.8.0-py3.8.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/easy_install-3.8-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/easy_install-3.8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/easy_install-3.8.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/easy_install.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/easy_install.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip3.8-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip3.8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip3.8.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pip3.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../飞机大战/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex43.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex43.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,9 +787,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1a1gcEciYH2EE4EHRMNKLJ7AKqD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,16 +802,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../you-get" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/soimort/you-get/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.my_word_game">
-    <configuration name="ex32" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.taobao2">
+    <configuration name="ex41" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hard_way_learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,7 +824,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex32.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex41.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -57,7 +833,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex33" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex43" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hard_way_learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +846,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex33.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex43.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +855,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex34" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="taobao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hard_way_learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +868,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex34.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taobao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +877,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex35" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="taobao2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hard_way_learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +890,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex35.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taobao2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +899,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_word_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hard_way_learn_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +912,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_word_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +923,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.my_word_game" />
-        <item itemvalue="Python.ex35" />
-        <item itemvalue="Python.ex34" />
-        <item itemvalue="Python.ex33" />
-        <item itemvalue="Python.ex32" />
+        <item itemvalue="Python.taobao2" />
+        <item itemvalue="Python.taobao" />
+        <item itemvalue="Python.ex43" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ex41" />
       </list>
     </recent_temporary>
   </component>
@@ -169,77 +945,159 @@
       <workItem from="1585909186128" duration="6164000" />
       <workItem from="1585994961370" duration="25966000" />
       <workItem from="1586247924861" duration="3525000" />
+      <workItem from="1586343622427" duration="30488000" />
+      <workItem from="1586698893316" duration="2390000" />
+      <workItem from="1586754918878" duration="3991000" />
+      <workItem from="1586832139734" duration="3195000" />
     </task>
+    <task id="LOCAL-00001" summary="ex38">
+      <created>1586356627636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586356627637</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ex39 kaw">
+      <created>1586359510037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586359510037</updated>
+    </task>
+    <task id="LOCAL-00003" summary="面向对象语法练习脚本">
+      <created>1586422583817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586422583817</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ex43-word game">
+      <created>1586505275773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586505275773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ex38" />
+    <MESSAGE value="ex39 kaw" />
+    <MESSAGE value="面向对象语法练习脚本" />
+    <MESSAGE value="ex43-word game" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex43-word game" />
   </component>
   <component name="WindowStateProjectService">
     <state x="792" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585909027523">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="792" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585909027523" />
-    <state x="1190" y="312" key="FileChooserDialogImpl" timestamp="1586251423747">
+    <state x="855" y="37" key="CommitChangelistDialog2" timestamp="1586505274649">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1190" y="312" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586251423747" />
+    <state x="855" y="37" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1586505274649" />
+    <state x="1053" y="100" width="774" height="887" key="DiffContextDialog" timestamp="1586356003683">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1053" y="100" width="774" height="887" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586356003683" />
+    <state x="1190" y="312" key="FileChooserDialogImpl" timestamp="1586355826766">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1190" y="312" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586355826766" />
     <state x="1264" y="421" key="Github.ShareDialog" timestamp="1586261057488">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1264" y="421" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586261057488" />
-    <state width="1258" height="352" key="GridCell.Tab.0.bottom" timestamp="1586174444240">
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1586833884549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1258" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586174444240" />
-    <state width="1258" height="352" key="GridCell.Tab.0.center" timestamp="1586174444240">
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586833884549" />
+    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1586833884549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1258" height="352" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586174444240" />
-    <state width="1258" height="352" key="GridCell.Tab.0.left" timestamp="1586174444240">
+    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586833884549" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1586833884549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1258" height="352" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586174444240" />
-    <state width="1258" height="352" key="GridCell.Tab.0.right" timestamp="1586174444240">
+    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586833884549" />
+    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1586833884549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1258" height="352" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586174444240" />
-    <state width="914" height="340" key="GridCell.Tab.1.bottom" timestamp="1586059539299">
+    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586833884549" />
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1586756512476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586059539299" />
-    <state width="914" height="340" key="GridCell.Tab.1.center" timestamp="1586059539299">
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586756512476" />
+    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1586756512476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="340" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586059539299" />
-    <state width="914" height="340" key="GridCell.Tab.1.left" timestamp="1586059539299">
+    <state width="1877" height="340" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586756512476" />
+    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1586756512476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="340" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586059539299" />
-    <state width="914" height="340" key="GridCell.Tab.1.right" timestamp="1586059539299">
+    <state width="1877" height="340" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586756512476" />
+    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1586756512476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="340" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586059539299" />
-    <state x="538" y="184" key="SettingsEditor" timestamp="1586251525476">
+    <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586756512476" />
+    <state x="380" y="180" key="SettingsEditor" timestamp="1586832576652">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="538" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586251525476" />
-    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1586251521790">
+    <state x="380" y="180" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586832576652" />
+    <state x="814" y="447" key="VCS.ChangelistChooser" timestamp="1586355996344">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586251521790" />
+    <state x="814" y="447" key="VCS.ChangelistChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586355996344" />
+    <state x="1032" y="272" key="Vcs.Push.Dialog.v2" timestamp="1586505278372">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1032" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586505278372" />
+    <state x="1295" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1586701113447">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1295" y="246" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586701113447" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ex43.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex39.coverage" NAME="ex39 Coverage Results" MODIFIED="1586359118308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hard_way_learn_python$ex26.coverage" NAME="ex26 Coverage Results" MODIFIED="1586060857946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex28.coverage" NAME="ex28 Coverage Results" MODIFIED="1586069048327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hard_way_learn_python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1585909303051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex31.coverage" NAME="ex31 Coverage Results" MODIFIED="1586074844478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$taobao.coverage" NAME="taobao Coverage Results" MODIFIED="1586833152973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$taobao2.coverage" NAME="taobao2 Coverage Results" MODIFIED="1586833884540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hard_way_learn_python$ex33.coverage" NAME="ex33 Coverage Results" MODIFIED="1586076858984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hard_way_learn_python$ex32.coverage" NAME="ex32 Coverage Results" MODIFIED="1586076563525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hard_way_learn_python$ex35.coverage" NAME="ex35 Coverage Results" MODIFIED="1586162390596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hard_way_learn_python$words.coverage" NAME="words Coverage Results" MODIFIED="1586060811042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex25.coverage" NAME="ex25 Coverage Results" MODIFIED="1585909119185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hard_way_learn_python$my_word_game.coverage" NAME="my_word_game Coverage Results" MODIFIED="1586174444233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex41.coverage" NAME="ex41 Coverage Results" MODIFIED="1586418644823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex28.coverage" NAME="ex28 Coverage Results" MODIFIED="1586069048327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1585909303051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex31.coverage" NAME="ex31 Coverage Results" MODIFIED="1586074844478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$test.coverage" NAME="test Coverage Results" MODIFIED="1586421278347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex38.coverage" NAME="ex38 Coverage Results" MODIFIED="1586356232129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex43.coverage" NAME="ex43 Coverage Results" MODIFIED="1586756332160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex40.coverage" NAME="ex40 Coverage Results" MODIFIED="1586415022373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hard_way_learn_python$ex25.coverage" NAME="ex25 Coverage Results" MODIFIED="1585909119185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hard_way_learn_python$ex34.coverage" NAME="ex34 Coverage Results" MODIFIED="1586156880736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
